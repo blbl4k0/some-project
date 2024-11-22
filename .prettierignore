@@ -1,0 +1,11 @@
+.eslintrc.json
+.prettierignore
+.prettierrc.json
+.env
+.env.local
+tsconfig.json
+package.json
+package-lock.json
+/build
+/node_modules
+public
