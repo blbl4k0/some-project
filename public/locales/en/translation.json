@@ -4,5 +4,9 @@
   "Главная": "Main",
   "О сайте": "About",
   "Язык": "English",
-  "Страница не найдена": "Page not found"
+  "Страница не найдена": "Page not found",
+  "Что-то пошло не так": "Something went wrong. =(",
+  "На главную": "Home",
+  "Обновить страницу": "Reload page"
+
 }
