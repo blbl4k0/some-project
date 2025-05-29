@@ -11,14 +11,14 @@ interface ISidebarProps {
 export const Sidebar = ({className}: ISidebarProps) => {
     const [collapsed, setCollapsed] = useState(false)
 
-    let a: any = 1
-    a = 'a'
     const onToggle = () => {
         setCollapsed((prev) => !prev)
     }
     return (
-        <div className={classNames(cls.Sidebar, {[cls.collapsed]: collapsed}, [className])}>
-            <button onClick={onToggle}>toggle</button>
+        <div data-testid="sidebar" className={classNames(cls.Sidebar, {[cls.collapsed]: collapsed}, [className])}>
+            <button data-testid="sidebar-toggle-btn" onClick={onToggle}>
+                toggle
+            </button>
             <div className={cls.switchers}>
                 <ThemeSwitcher />
                 <LangSwitcher className={cls.lang}></LangSwitcher>

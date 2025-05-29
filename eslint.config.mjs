@@ -52,6 +52,7 @@ export default [
             "@typescript-eslint/no-inferrable-types": "off",
             "@typescript-eslint/no-explicit-any": "off",
             '@typescript-eslint/no-non-null-assertion': 'off',
+            // "i18next/no-literal-string": ['error', {"ignoreAttribute": ['data-testid']}]
             //   "react/no-unescaped-entities": "off",
             //   "react/prefer-const": "off",
             //   "react/display-name": "off",
